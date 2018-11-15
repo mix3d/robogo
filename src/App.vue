@@ -4,8 +4,8 @@
       <div class="row">
         <div class="col flex-shrink-1 flex-grow-0">
             <div class="card h-100" style="width: 300px;">
-              <div class="card-body flex-shrink-1 flex-grow-0" style="padding-bottom: 0;">
-                <h4 class="card-text text-monospace">Active Bots</h4>
+              <div class="card-body" :class="{'flex-grow-0':connected}" style="padding-bottom: 0;">
+                <h4 class="card-text text-monospace text-center">Active Bots</h4>
               </div>
               <template v-if="connected">
                 <bot-list :bots="botList" />
