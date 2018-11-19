@@ -128,9 +128,7 @@ export default {
     },
 }
 function randomColor() {
-    return `rgb(${Math.floor(Math.random() * 256)},${Math.floor(Math.random() * 256)},${Math.floor(
-        Math.random() * 256
-    )})`
+    return `rgb(${Math.floor(Math.random() * 256)},${Math.floor(Math.random() * 256)},${Math.floor(Math.random() * 256)})`
 }
 </script>
 
