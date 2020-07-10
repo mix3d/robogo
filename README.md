@@ -1,5 +1,6 @@
 # robogo
 Keep track of those pesky directionless robots, via WS connection and Vue interface.
+Code project for an tech interview.
 
 Notes:
 
